@@ -1,3 +1,5 @@
 artifacts
 
 logs/log_report.log
+
+src/textsummarizer/pipeline/__pycache__
