@@ -35,7 +35,6 @@ def save_json(path: Path, data: dict):
 
 @typechecked
 def load_json(path: Path) -> ConfigBox:
-
     with open(path) as f:
         content = json.load(f)
 
